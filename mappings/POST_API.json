@@ -1,0 +1,24 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/add/user",
+		"bodyPatterns": [{
+			"equalToJson": {
+				"name": "abc",
+				"id": "123"
+			}
+		}],
+		"headers": {
+			"content-type": {
+				"equalTo": "application/json"
+			}
+		}
+	},
+	"response": {
+		"status": 201,
+		"bodyFileName": "POST-user-201.json",
+		"headers": {
+			"content-type": "application/json"
+		}
+	}
+}

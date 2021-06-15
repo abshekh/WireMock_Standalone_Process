@@ -1,0 +1,18 @@
+{
+  "request":{
+	  "method" : "GET",
+	  "urlPattern":"/get/users",
+	  "headers":{
+		  "content-type":{
+			  "equalTo":"application/json"
+		  }
+	  }
+  }	,
+  "response":{
+	  "status" :200,
+	  "bodyFileName":"get-users-200.json",
+	  "headers":{
+		  "content-type": "application/json"
+	  }
+  }	  
+}
